@@ -107,7 +107,7 @@
       "id": "9"
     },
     {
-      "id": "10",
+      "size": "6",
       "name": "All-Pro NITRO™ RJ Barrett Men's Basketball Shoes",
       "price": 140,
       "productImage": "/src/assets/HomeProduct/ID10/IdImgOne.avif",
@@ -115,7 +115,8 @@
       "productImageThree": "/src/assets/HomeProduct/ID10/IdImgThree.avif",
       "productImageFour": "/src/assets/HomeProduct/ID10/IdImgFour.avif",
       "productImageFive": "/src/assets/HomeProduct/ID10/IdImgFive.avif",
-      "productImageSix": "/src/assets/HomeProduct/ID10/IdImgSix.avif"
+      "productImageSix": "/src/assets/HomeProduct/ID10/IdImgSix.avif",
+      "id": "10"
     },
     {
       "id": "11",

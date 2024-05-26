@@ -35,7 +35,7 @@ export const Login = () => {
       }
     }
   };
-
+  // New Update
   const onGoogleSignIn = async (e) => {
     e.preventDefault();
     if (!isSigningIn) {

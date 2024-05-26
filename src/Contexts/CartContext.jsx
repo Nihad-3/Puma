@@ -155,6 +155,7 @@ export const CartProductList = ({ children }) => {
     productData,
     incrementQuantity,
     isInWishList,
+    setCartList
   };
   return <CartContext.Provider value={values}>{children}</CartContext.Provider>;
 };

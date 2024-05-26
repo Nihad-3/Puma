@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useAuth } from "../../Contexts/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
 import { FaRegAddressBook, FaRegUser } from "react-icons/fa";
-import "../Data/data.scss";
+import "../Data/mainData.scss";
 import { MdLockOutline } from "react-icons/md";
 import { ImEye, ImEyeBlocked } from "react-icons/im";
 import { IoFilter } from "react-icons/io5";

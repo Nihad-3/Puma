@@ -105,17 +105,28 @@ export const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  const [burgerMenuActive, setBurgerMenuActive] = useState(false);
+
+  const toggleBurgerMenu = () => {
+    setBurgerMenuActive(!burgerMenuActive);
+  };
   return (
     <>
       <section className="changeText-section">
         <p className="change-par">{changeWord[currentIndex]}</p>
       </section>
-      <header className={isSticky ? "sticky" : ""}>
+      <header
+        className={isSticky ? "sticky" : ""}
+        style={burgerMenuActive ? { backgroundColor: "#FFF" } : {}}
+      >
         <div className="contanier">
           <div className="row">
             <div className="logo">
               <Link to={"/"} className="logo-link">
-                <SiPuma className="logo-icon" />
+                <SiPuma
+                  style={burgerMenuActive ? { color: "#191919" } : {}}
+                  className="logo-icon"
+                />
               </Link>
             </div>
             <nav className="nav-bar">
@@ -573,8 +584,6 @@ export const Header = () => {
                           <div className="content-block">
                             <h3 className="content-head">Boys</h3>
                             <dl className="content-list">
-                              <dt className="content">Shoes</dt>
-                              <dd>pa</dd>
                               <li className="content-item">
                                 <Link className="content-link">Suede XL</Link>
                               </li>
@@ -845,15 +854,24 @@ export const Header = () => {
                 </li>
               </ul>
             </nav>
-            <div className="components-block">
+            <div
+              style={burgerMenuActive ? { backgroundColor: "#FFF" } : {}}
+              className="components-block"
+            >
               <div className="icons-block">
                 <button className="searchBtn" onClick={() => toggleModal()}>
                   <div className="searchBtn-block">
                     <BiSearch className="search-icon" />
                     <span>SEARCH</span>
                   </div>
-                  <div className="second-search-block">
-                    <BiSearch className="second-search" />
+                  <div
+                    style={burgerMenuActive ? { backgroundColor: "#FFF" } : {}}
+                    className="second-search-block"
+                  >
+                    <BiSearch
+                      style={burgerMenuActive ? { color: "#191919" } : {}}
+                      className="second-search"
+                    />
                   </div>
                 </button>
                 <div className="link-icons">
@@ -863,22 +881,28 @@ export const Header = () => {
                     ) : (
                       <span className="link-icons-span">{wishList.length}</span>
                     )}
-                    <AiOutlineHeart className="icon" />
+                    <AiOutlineHeart
+                      style={burgerMenuActive ? { color: "#191919" } : {}}
+                      className="icon"
+                    />
                   </Link>
                   <Link to={"/cart"} className="link-icon">
-                    <HiOutlineShoppingCart className="icon" />
+                    <HiOutlineShoppingCart
+                      style={burgerMenuActive ? { color: "#191919" } : {}}
+                      className="icon"
+                    />
                     {counterShopList === 0 ? (
                       ""
                     ) : (
                       <span className="link-icons-span">{counterShopList}</span>
                     )}
                   </Link>
-                  <Link to={"/userpage"} className="link-icon">
+                  <Link to={"/userpage"} className="link-icon user-link-icon">
                     <AiOutlineUser className="icon user-icon" />
                   </Link>
                 </div>
               </div>
-              <BurgerMenu />
+              <BurgerMenu toggleBurgerMenu={toggleBurgerMenu} />
             </div>
           </div>
         </div>
@@ -891,7 +915,10 @@ export const Header = () => {
               <div className="contanier">
                 <div className="search-block">
                   <div className="cancel-block cancel-two-block">
-                    <button className="close-modal close-two-modal" onClick={toggleModal}>
+                    <button
+                      className="close-modal close-two-modal"
+                      onClick={toggleModal}
+                    >
                       <FaChevronLeft className="close-icon close-icon-left" />
                     </button>
                   </div>

@@ -5,40 +5,43 @@ import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { BurgerDropdown } from "../BurgerDropdown/BurgerDropdown";
-export const BurgerMenu = () => {
-  // const [checkItem, setCheckItem] = useState(false);
-  // const [checkBurger, setCheckBurger] = useState(false);
-  // const handleChnage = () => {
-  //   setCheckBurger(!checkBurger);
-  // };
-  // const checkBurgerItem = () => {
-  //   setCheckItem(true);
-  // };
+export const BurgerMenu = ({ toggleBurgerMenu }) => {
   const [checkItem, setCheckItem] = useState(false);
   const [checkBurger, setCheckBurger] = useState(false);
-  const closeAllPage = ()=>{
-    setCheckBurger(false)
-    setCheckItem(false)
-  }
+  const [selectedItem, setSelectedItem] = useState("");
+  const closeAllPage = () => {
+    setCheckBurger(false);
+    setCheckItem(false);
+  };
 
   const handleChnage = () => {
     setCheckBurger(!checkBurger);
-    setCheckItem(false)
+    setCheckItem(false);
+    toggleBurgerMenu(!checkBurger);
   };
 
-  const toggleCheckItem = () => {
+  const toggleCheckItem = (item) => {
     setCheckItem(!checkItem);
+    setSelectedItem(item);
   };
   return (
     <>
       <div className="burger-menu-block">
         <button className="burger-btn" onClick={() => handleChnage()}>
           {checkBurger ? (
-            <IoMdClose className="burger-icon" />
+            <IoMdClose
+              style={checkBurger ? { color: "#191919" } : {}}
+              className="burger-icon"
+            />
           ) : (
             <GiHamburgerMenu className="burger-icon" />
           )}
-          <span className="burger-span">MENU</span>
+          <span
+            style={checkBurger ? { color: "#191919" } : {}}
+            className="burger-span"
+          >
+            MENU
+          </span>
         </button>
       </div>
       {checkBurger && (
@@ -46,14 +49,28 @@ export const BurgerMenu = () => {
           <div className="contanier">
             <div className="burger-block">
               <ul className="burger-list">
-                <li onClick={() => toggleCheckItem()} className="burger-item">
+                <li
+                  onClick={() => toggleCheckItem("WOMEN")}
+                  className="burger-item"
+                >
                   <Link className="burger-link">
                     Women
                     <FaChevronRight className="right-icon" />
                   </Link>
                 </li>
-                {checkItem && <BurgerDropdown onAllClose={closeAllPage} onClose={toggleCheckItem} />}
-                <li className="burger-item">
+                {checkItem && (
+                  <BurgerDropdown
+                    onAllClose={closeAllPage}
+                    onClose={() => toggleCheckItem("")}
+                    burgerHeader={selectedItem}
+                    burgerLink={selectedItem}
+                    pageLink={selectedItem.toLocaleLowerCase()}
+                  />
+                )}
+                <li
+                  onClick={() => toggleCheckItem("MEN")}
+                  className="burger-item"
+                >
                   <Link className="burger-link">
                     Men
                     <FaChevronRight className="right-icon" />
@@ -66,9 +83,8 @@ export const BurgerMenu = () => {
                   </Link>
                 </li>
                 <li className="burger-item">
-                  <Link className="burger-link">
+                  <Link to={"/fenty-puma"} className="burger-link">
                     FENTY x PUMA
-                    <FaChevronRight className="right-icon" />
                   </Link>
                 </li>
                 <li className="burger-item">
@@ -96,7 +112,9 @@ export const BurgerMenu = () => {
                   </Link>
                 </li>
                 <li className="different-burger-item">
-                  <Link className="burger-link">My Account</Link>
+                  <Link to={"/data"} className="burger-link">
+                    My Account
+                  </Link>
                 </li>
                 <li className="different-burger-item">
                   <Link className="burger-link">Initiate Return</Link>
@@ -114,8 +132,9 @@ export const BurgerMenu = () => {
                   <Link className="burger-link">Language</Link>
                 </li>
                 <li className="burger-login-item">
-                  <Link className="login-btn">LOGIN</Link>
-                  <Link className="login-btn">REGISTER HERE</Link>
+                  <Link to={"/userpage"} className="login-btn">
+                    LOGIN
+                  </Link>
                 </li>
               </ul>
             </div>

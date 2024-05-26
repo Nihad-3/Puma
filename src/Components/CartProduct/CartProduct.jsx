@@ -78,13 +78,12 @@ export const CartProduct = ({
         productImageFive: productImageFive,
         productImageSix: productImageSix,
       };
-  
+
       const url = id < 9 
         ? `http://localhost:3000/posts/${id}` 
         : `http://localhost:3000/HomeProduct/${id}`;
-  
+
       await axios.put(url, updatedProduct);
-  
       setCartList((prev) =>
         prev.map((item) =>
           item.id === id ? { ...item, size: radioValue } : item
@@ -95,10 +94,6 @@ export const CartProduct = ({
       console.error("Error updating product size:", error);
     }
   };
-  
-  useEffect(() => {
-    document.body.classList.toggle("-cart-product-active", updateCartProduct);
-  }, [updateCartProduct]);
   return (
     <>
       <div className="cart-product-block" key={id}>
