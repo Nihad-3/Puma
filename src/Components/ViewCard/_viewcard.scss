@@ -1,0 +1,70 @@
+.women-card-link {
+  width: 25%;
+  height: 100%;
+  margin: 0 -10px;
+  .women-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .card-img {
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .view-par {
+      font-weight: bold;
+      font-size: 30px;
+      position: absolute;
+      bottom: 40px;
+      left: 30px;
+      color: #fff;
+    }
+  }
+}
+
+.changeWidth {
+  width: 50%;
+}
+
+.changeGap {
+  margin: 0 -25px;
+  .women-card {
+    .view-par {
+      font-size: 25px;
+      bottom: 10px;
+      left: 20px;
+    }
+  }
+}
+
+.different-card {
+  width: 25%;
+  height: 100%;
+  margin: 0 -15px;
+  .women-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .card-img {
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .view-par {
+      font-weight: bold;
+      font-size: 25px;
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      color: #fff;
+    }
+  }
+}

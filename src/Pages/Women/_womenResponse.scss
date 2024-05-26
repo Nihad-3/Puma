@@ -1,0 +1,312 @@
+@media (max-width: 1024px) {
+  .palermo-section {
+    margin-bottom: 100px;
+    background-color: red;
+    position: relative;
+    .palermo-info-block {
+      position: absolute;
+      top: 50%;
+      left: 40px;
+      color: #fff;
+      transform: translateY(-50%);
+      .palermo-head {
+        font-size: 40px;
+      }
+      .palermo-par {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      .palermo-link {
+        margin-right: 20px;
+        color: #181818;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #fff;
+        padding: 10px 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .women-card-section {
+    height: 500px;
+    margin-bottom: 50px;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      // background-color: green;
+      .women-collection {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 0 10px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .shop-performance-section {
+    // background-color: yellow;
+    margin-bottom: 50px;
+    height: 300px;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      // background-color: orange;
+      .shop-performance-block {
+        width: 100%;
+        height: 100%;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .shop-performance-header {
+          height: 10%;
+          font-size: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          // background-color: red;
+          margin: -15px 0;
+        }
+        .collection-block {
+          width: 100%;
+          height: 90%;
+          margin: -15px 0;
+          // background-color: blueviolet;
+          .performance-collection {
+            display: flex;
+            height: 100%;
+            padding: 0 25px;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .palermo-section {
+    margin-bottom: 100px;
+    background-color: red;
+    position: relative;
+    .palermo-info-block {
+      position: absolute;
+      top: 50%;
+      left: 40px;
+      color: #fff;
+      transform: translateY(-50%);
+      .palermo-head {
+        font-size: 35px;
+      }
+      .palermo-par {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+      }
+      .palermo-link {
+        margin-right: 20px;
+        color: #181818;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #fff;
+        padding: 10px 15px;
+      }
+    }
+  }
+  .women-card-section {
+    height: 400px;
+    margin-bottom: 50px;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      // background-color: green;
+      .women-collection {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 0 10px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .wardrobe-section {
+    background-color: red;
+    position: relative;
+    .wardrobe-info-block {
+      position: absolute;
+      top: 50%;
+      left: 40px;
+      transform: translateY(-50%);
+      color: #fff;
+      .wardrobe-head {
+        font-size: 30px;
+      }
+      .wardrobe-par {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+      .link-block {
+        margin-top: 30px;
+        display: flex;
+        gap: 20px;
+        .wardrobe-link {
+          background-color: #fff;
+          color: #181818;
+          font-weight: bold;
+          font-size: 15px;
+          padding: 15px 18px;
+        }
+      }
+    }
+  }
+  .shop-performance-section {
+    // background-color: yellow;
+    margin-bottom: 50px;
+    height: 500px;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      // background-color: orange;
+      .shop-performance-block {
+        width: 100%;
+        height: 100%;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .shop-performance-header {
+          height: 10%;
+          font-size: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          // background-color: red;
+          margin: -15px 0;
+        }
+        .collection-block {
+          width: 100%;
+          height: 90%;
+          padding: 10px;
+          // background-color: blueviolet;
+          .performance-collection {
+            // background-color: orange;
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            row-gap: 40px;
+            // padding: 10x;
+            padding: 10px;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 432px) {
+  .women-card-section {
+    height: 300px;
+    margin-bottom: 50px;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      // background-color: green;
+      .women-collection {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 0 10px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .wardrobe-section {
+    background-color: red;
+    position: relative;
+    .wardrobe-info-block {
+      position: absolute;
+      top: 50%;
+      left: 20px;
+      transform: translateY(-50%);
+      color: #fff;
+      .wardrobe-head {
+        font-size: 20px;
+      }
+      .wardrobe-par {
+        font-size: 18px;
+        margin-top: 10px;
+      }
+      .link-block {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        .wardrobe-link {
+          background-color: #fff;
+          color: #181818;
+          font-weight: bold;
+          font-size: 12px;
+          padding: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .shop-performance-section {
+    // background-color: yellow;
+    margin-bottom: 50px;
+    height: 500px;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      // background-color: orange;
+      .shop-performance-block {
+        width: 100%;
+        height: 100%;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .shop-performance-header {
+          height: 10%;
+          font-size: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          // background-color: red;
+          margin: -15px 0;
+        }
+        .collection-block {
+          width: 100%;
+          height: 90%;
+          padding: 10px;
+          // background-color: blueviolet;
+          .performance-collection {
+            // background-color: orange;
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            row-gap: 40px;
+            // padding: 10x;
+            padding: 10px;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+}

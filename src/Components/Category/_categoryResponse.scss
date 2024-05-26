@@ -1,0 +1,196 @@
+@media (max-width: 768px) {
+  .shop-category-section {
+    height: 1000px;
+    margin-bottom: 100px;
+    // background-color: red;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      .shop-category-block {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        // background-color: red;
+        .shop-category-header {
+          height: 5%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .shop-head {
+            font-size: 30px;
+            color: #181818;
+          }
+        }
+        .shop-collection {
+          width: 100%;
+          height: 95%;
+          display: flex;
+          flex-wrap: wrap;
+          // padding: 20px 0;
+          gap: 50px;
+          .favorite-collection-section {
+            width: 100%;
+            height: 70%;
+            margin: -10px 0;
+            .favorite-collection {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              padding: 0 10px;
+              gap: 40px;
+            }
+          }
+          .simple-collection-section {
+            width: 100%;
+            height: 30%;
+            margin: -10px 0;
+            .simple-collection-block {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              padding: 0 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .shop-category-section {
+    height: 1000px;
+    margin-bottom: 100px;
+    // background-color: red;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      .shop-category-block {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        // background-color: red;
+        .shop-category-header {
+          height: 5%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .shop-head {
+            font-size: 30px;
+            color: #181818;
+          }
+        }
+        .shop-collection {
+          width: 100%;
+          height: 95%;
+          display: flex;
+          flex-wrap: wrap;
+          // padding: 20px 0;
+          gap: 50px;
+          .favorite-collection-section {
+            width: 100%;
+            height: 60%;
+            margin: -10px 0;
+            .favorite-collection {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              padding: 0 10px;
+              gap: 40px;
+            }
+          }
+          .simple-collection-section {
+            width: 100%;
+            height: 40%;
+            margin: -10px 0;
+            .simple-collection-block {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              row-gap: 30px;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              padding: 10px;
+              // background-color: yellow;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 432px) {
+  .shop-category-section {
+    height: 700px;
+    margin-bottom: 100px;
+    // background-color: red;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      .shop-category-block {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        // background-color: red;
+        .shop-category-header {
+          height: 5%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .shop-head {
+            font-size: 25px;
+            color: #181818;
+          }
+        }
+        .shop-collection {
+          width: 100%;
+          height: 95%;
+          display: flex;
+          flex-wrap: wrap;
+          // padding: 20px 0;
+          gap: 30px;
+          .favorite-collection-section {
+            width: 100%;
+            height: 50%;
+            margin: -10px 0;
+            // background-color: green;
+            .favorite-collection {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              padding: 0 10px;
+              gap: 40px;
+            }
+          }
+          .simple-collection-section {
+            width: 100%;
+            height: 50%;
+            margin: -10px 0;
+            .simple-collection-block {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              row-gap: 30px;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              padding: 10px;
+              // background-color: yellow;
+            }
+          }
+        }
+      }
+    }
+  }
+}

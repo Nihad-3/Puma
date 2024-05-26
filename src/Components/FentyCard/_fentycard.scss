@@ -1,0 +1,148 @@
+.fenty-link {
+  display: block;
+  width: 25%;
+  height: 450px;
+  margin: 0 -20px;
+  // background-color: red;
+  .fenty-card {
+    width: 100%;
+    height: 100%;
+    .slider-block {
+      width: 100%;
+      height: 60%;
+      .FentySwiper {
+        width: 100%;
+        height: 100%;
+        .fenty-slide {
+          width: 100%;
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+    .fenty-info-block {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      height: 40%;
+      // background-color: orange;
+      padding: 10px 0;
+      .fenty-color {
+        color: black;
+        font-size: 12px;
+        margin: 5px 0;
+      }
+      .price-block {
+        // background-color: yellow;
+        display: flex;
+        color: black;
+        font-weight: bold;
+        h3 {
+          font-size: 15px;
+        }
+      }
+      .new-par {
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        padding: 5px 10px;
+        background-color: black;
+        width: 20%;
+        color: gold;
+      }
+      .star-block {
+        .star-icon {
+          font-size: 18px;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+.swiper-button-prev {
+  &::after {
+    font-size: 15px;
+    padding: 12px 15px;
+  }
+}
+.swiper-button-next {
+  &::after {
+    font-size: 15px;
+    padding: 12px 15px;
+  }
+}
+
+.fenty-link-two {
+  display: block;
+  width: 50%;
+  height: 650px;
+  margin: 0 -20px;
+  // background-color: red;
+  .fenty-card {
+    width: 100%;
+    height: 100%;
+    .slider-block {
+      width: 100%;
+      height: 60%;
+      .FentySwiper {
+        width: 100%;
+        height: 100%;
+        .fenty-slide {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          img {
+            width: 70%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+    .fenty-info-block {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      height: 40%;
+      // background-color: orange;
+      padding: 10px 0;
+      .fenty-color {
+        color: black;
+        font-size: 12px;
+        margin: 5px 0;
+      }
+      .price-block {
+        // background-color: yellow;
+        display: flex;
+        color: black;
+        font-weight: bold;
+        h3 {
+          font-size: 15px;
+        }
+      }
+      .new-par {
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        padding: 5px 10px;
+        background-color: black;
+        width: 10%;
+      }
+      .star-block {
+        .star-icon {
+          font-size: 18px;
+          color: black;
+        }
+      }
+    }
+  }
+}

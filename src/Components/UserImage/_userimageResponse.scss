@@ -1,0 +1,404 @@
+@media (max-width: 1024px) {
+  .user-image-header {
+    margin-top: 50px;
+    height: 150px;
+    .contanier {
+      width: 90%;
+      margin: 0 auto;
+      height: 100%;
+      .user-image-header-block {
+        width: 100%;
+        height: 100%;
+        // background-color: orange;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #191919;
+        .user-image-header-block-head {
+          font-size: 25px;
+        }
+        .user-image-header-block-par {
+          font-size: 20px;
+        }
+        .user-image-header-block-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 50%;
+          width: 20%;
+          padding: 10px;
+          font-size: 15px;
+          color: #191919;
+          border: 2px solid #191919;
+          &:hover {
+            background-color: #191919;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .user-image-section {
+    height: 500px;
+    // background-color: red;
+    margin: 100px 0;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      .user-image-block {
+        width: 100%;
+        height: 100%;
+        // background-color: green;
+        .myUserImageSwiper {
+          width: 100%;
+          height: 100%;
+          .myUserImageSlider {
+            background-color: orange;
+            cursor: url("path_to_your_cursor_image.png"), auto;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .user-image-header {
+    margin-top: 50px;
+    // background-color: red;
+    height: 150px;
+    .contanier {
+      width: 94%;
+      margin: 0 auto;
+      height: 100%;
+      .user-image-header-block {
+        width: 100%;
+        height: 100%;
+        // background-color: orange;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #191919;
+        .user-image-header-block-head {
+          font-size: 20px;
+        }
+        .user-image-header-block-par {
+          font-size: 18px;
+        }
+        .user-image-header-block-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 30%;
+          width: 20%;
+          padding: 10px;
+          font-size: 15px;
+          color: #191919;
+          border: 2px solid #191919;
+          &:hover {
+            background-color: #191919;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .user-image-section {
+    height: 600px;
+    margin: 100px 0;
+    .contanier {
+      width: 94%;
+      height: 100%;
+      margin: 0 auto;
+      .user-image-block {
+        width: 100%;
+        height: 100%;
+        // background-color: green;
+        .myUserImageSwiper {
+          width: 100%;
+          height: 100%;
+          .myUserImageSlider {
+            background-color: orange;
+            cursor: url("path_to_your_cursor_image.png"), auto;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 912px) {
+  .user-image-header {
+    margin-top: 50px;
+    // background-color: red;
+    height: 150px;
+    .contanier {
+      width: 94%;
+      margin: 0 auto;
+      height: 100%;
+      .user-image-header-block {
+        width: 100%;
+        height: 100%;
+        // background-color: orange;
+        display: flex;
+        gap: 18px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #191919;
+        .user-image-header-block-head {
+          font-size: 25px;
+        }
+        .user-image-header-block-par {
+          font-size: 18px;
+        }
+        .user-image-header-block-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 30%;
+          width: 20%;
+          padding: 10px;
+          font-size: 15px;
+          color: #191919;
+          border: 2px solid #191919;
+          &:hover {
+            background-color: #191919;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .user-image-section {
+    height: 600px;
+    margin: 50px 0;
+    .contanier {
+      width: 94%;
+      height: 100%;
+      margin: 0 auto;
+      .user-image-block {
+        width: 100%;
+        height: 100%;
+        // background-color: green;
+        .myUserImageSwiper {
+          width: 100%;
+          height: 100%;
+          .myUserImageSlider {
+            background-color: orange;
+            cursor: url("path_to_your_cursor_image.png"), auto;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .user-image-header {
+    margin-top: 50px;
+    // background-color: red;
+    height: 150px;
+    .contanier {
+      width: 94%;
+      margin: 0 auto;
+      height: 100%;
+      .user-image-header-block {
+        width: 100%;
+        height: 100%;
+        // background-color: orange;
+        display: flex;
+        gap: 18px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #191919;
+        .user-image-header-block-head {
+          font-size: 25px;
+        }
+        .user-image-header-block-par {
+          font-size: 18px;
+        }
+        .user-image-header-block-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 30%;
+          width: 30%;
+          padding: 10px;
+          font-size: 15px;
+          color: #191919;
+          border: 2px solid #191919;
+          &:hover {
+            background-color: #191919;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .user-image-section {
+    height: 600px;
+    margin: 50px 0;
+    .contanier {
+      width: 94%;
+      height: 100%;
+      margin: 0 auto;
+      .user-image-block {
+        width: 100%;
+        height: 100%;
+        // background-color: green;
+        .myUserImageSwiper {
+          width: 100%;
+          height: 100%;
+          .myUserImageSlider {
+            // background-color: orange;
+            cursor: url("path_to_your_cursor_image.png"), auto;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 432px) {
+  .user-image-header {
+    margin-top: 50px;
+    // background-color: red;
+    height: 150px;
+    .contanier {
+      width: 94%;
+      margin: 0 auto;
+      height: 100%;
+      .user-image-header-block {
+        width: 100%;
+        height: 100%;
+        // background-color: orange;
+        display: flex;
+        gap: 18px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #191919;
+        .user-image-header-block-head {
+          font-size: 20px;
+        }
+        .user-image-header-block-par {
+          font-size: 18px;
+        }
+        .user-image-header-block-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 30%;
+          width: 40%;
+          padding: 10px;
+          font-size: 15px;
+          color: #191919;
+          border: 2px solid #191919;
+          &:hover {
+            background-color: #191919;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .user-image-section {
+    height: 500px;
+    margin: 50px 0;
+    .contanier {
+      width: 94%;
+      height: 100%;
+      margin: 0 auto;
+      .user-image-block {
+        width: 100%;
+        height: 100%;
+        // background-color: green;
+        .myUserImageSwiper {
+          width: 100%;
+          height: 100%;
+          .myUserImageSlider {
+            // background-color: orange;
+            cursor: url("path_to_your_cursor_image.png"), auto;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .user-image-header {
+    margin-top: 50px;
+    // background-color: red;
+    height: 150px;
+    .contanier {
+      width: 94%;
+      margin: 0 auto;
+      height: 100%;
+      .user-image-header-block {
+        width: 100%;
+        height: 100%;
+        // background-color: orange;
+        display: flex;
+        gap: 18px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #191919;
+        .user-image-header-block-head {
+          font-size: 20px;
+        }
+        .user-image-header-block-par {
+          font-size: 18px;
+        }
+        .user-image-header-block-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 30%;
+          width: 60%;
+          padding: 10px;
+          font-size: 15px;
+          color: #191919;
+          border: 2px solid #191919;
+          &:hover {
+            background-color: #191919;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

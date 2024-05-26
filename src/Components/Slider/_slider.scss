@@ -1,0 +1,72 @@
+.mySwiper {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 100px;
+  // background-color: yellow;
+  .slide {
+    margin-right: 10px;
+  }
+}
+
+.slider-section{
+    .contanier{
+        width: 90%;
+        margin: 0 auto;
+        .head-slide{
+            color: #191919;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+    }
+}
+
+
+.mySwiper::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Track */
+.mySwiper::-webkit-scrollbar-track {
+  background: red; /* Set the color of the track */
+}
+
+/* Handle */
+.mySwiper::-webkit-scrollbar-thumb {
+  background: #888; /* Set the color of the scrollbar thumb */
+}
+
+.mySwiper::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.swiper-button-next {
+  &::after {
+    color: #fff;
+    font-size: 18px;
+    background-color: #555;
+    --swiper-navigation-size: 30px;
+    border-radius: 50%;
+    padding: 15px 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.swiper-button-prev {
+  &::after {
+    color: #fff;
+    font-size: 18px;
+    background-color: #555;
+    // background-color: red;
+    --swiper-navigation-size: 30px;
+    border-radius: 50%;
+    padding: 15px 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

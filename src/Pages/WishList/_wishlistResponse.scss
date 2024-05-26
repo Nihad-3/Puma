@@ -1,0 +1,69 @@
+@media (max-width: 1024px) {
+  .wish-list-section {
+    // background-color: red;
+    // margin: 100px 0
+    margin: 50px 0;
+    .contanier {
+      width: 94%;
+      margin: 0 auto;
+    //   background-color: orange;
+      .wish-list-block-parent {
+        width: 100%;
+        // background-color: green;
+        display: flex;
+        justify-content: center;
+        .wish-list-block {
+          width: 100%;
+          gap: 40px;
+          display: flex;
+          flex-direction: column;
+        //   background-color: blue;
+          border-radius: 10px;
+          padding: 30px 20px;
+          border: 4px solid #e5e7eb;
+          .wish-list-header {
+            margin-bottom: 20px;
+            padding: 10px 0;
+            border-bottom: 3px solid #e5e7eb;
+            width: 100%;
+            // background-color: orange;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .wish-list-head {
+              font-size: 25px;
+              color: #191919;
+            }
+            .wish-list-par {
+              font-size: 20px;
+              color: #191919;
+            }
+          }
+          .empty-wishlist-section {
+            // background-color: red;
+            height: 350px;
+            width: 100%;
+            .empty-wishlist-block {
+              width: 100%;
+              height: 100%;
+              // background-color: yellow;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: 5px;
+              .empty-wishlist-block-icon {
+                font-size: 100px;
+                color: #cccccc;
+              }
+              .empty-wishlist-block-head {
+                font-size: 25px;
+                color: #191919;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

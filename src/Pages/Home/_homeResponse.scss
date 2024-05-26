@@ -1,0 +1,1329 @@
+@media (max-width: 1024px) {
+  .shop-now-section {
+    margin: 50px 0;
+    .product-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      //   background-color: red;
+      .marka-head {
+        color: #181818;
+        font-size: 35px;
+      }
+      .marka-par {
+        font-size: 20px;
+        color: #181818;
+        // background-color: orange;
+        width: 60%;
+        line-height: 30px;
+        text-align: center;
+      }
+      .marka-link {
+        font-size: 18px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #181818;
+        padding: 10px 15px;
+      }
+    }
+  }
+  .game-section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    .game-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      .game-head {
+        font-size: 35px;
+        color: #181818;
+      }
+      .game-par {
+        color: #181818;
+        text-align: center;
+        font-size: 18px;
+        width: 80%;
+        padding: 0 10px;
+        line-height: 40px;
+        // background-color: orange;
+      }
+      .link-block {
+        // background-color: rebeccapurple;
+        display: flex;
+        gap: 30px;
+        .shop-link {
+          color: #fff;
+          padding: 12px 15px;
+          font-weight: bold;
+          background-color: #181818;
+        }
+      }
+    }
+  }
+  .upTo-section {
+    background-image: url("/src/assets/image/30e70c2ac72ecdf28de44f2bf61354aed48621a9-1440x350.webp");
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+    .contanier {
+      height: 100%;
+      width: 90%;
+      margin: 0 auto;
+      .upTo-block {
+        height: 100%;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        //   background-color: red;
+        .upto-head {
+          color: #fff;
+          font-size: 40px;
+        }
+        .upto-par {
+          font-size: 20px;
+          color: #fff;
+          line-height: 30px;
+          span {
+            font-weight: bold;
+          }
+        }
+        .exclusive-par {
+          font-size: 18px;
+          color: #fff;
+          margin-bottom: 20px;
+        }
+        .shop-link {
+          color: #181818;
+          padding: 15px 20px;
+          font-size: 18px;
+          font-weight: bold;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  .spring-styles-section {
+    .contanier {
+      width: 90%;
+      margin: 0 auto;
+      .spring-styles-block {
+        // background-color: red;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 0;
+        margin-bottom: 100px;
+        .spring-header {
+          height: 10%;
+          margin: -10px 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .spring-head {
+            font-size: 30px;
+            color: #181818;
+          }
+        }
+        .spring-card {
+          margin: -10px 0;
+          display: flex;
+          flex-wrap: wrap;
+          height: 90%;
+          padding: 0 15px;
+          justify-content: space-between;
+          // background-color: green;
+          .card-link {
+            margin: 0 -10px;
+            padding: 0 10px;
+            width: 25%;
+            height: 100%;
+            .card {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              // background-color: yellow;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+              .new-sale-par {
+                left: 20px;
+                bottom: 20px;
+                font-size: 20px;
+                font-weight: bold;
+                color: #fff;
+                position: absolute;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .forever-section {
+    height: 500px;
+    background-image: url("/src/assets/image/forever.webp");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+    cursor: pointer;
+    .contanier {
+      height: 100%;
+      width: 90%;
+      margin: 0 auto;
+      .forever-block {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        justify-content: center;
+        .forever-head {
+          font-size: 40px;
+          margin-bottom: 10px;
+        }
+        .forever-par {
+          margin-bottom: 30px;
+          font-size: 25px;
+        }
+        .forever-link {
+          font-size: 20px;
+          font-weight: bold;
+          color: #fff;
+          padding: 15px 20px;
+          background-color: #181818;
+        }
+      }
+    }
+  }
+  .gym-section {
+    // background-color: red;
+    margin-bottom: 40px;
+    height: 300px;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      .gym-block {
+        display: flex;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 15px;
+      }
+    }
+  }
+  .manyways-section {
+    margin-bottom: 50px;
+    height: 350px;
+    // background-color: red;
+    .contanier {
+      height: 100%;
+      width: 90%;
+      margin: 0 auto;
+      .manyways-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        padding: 15px 0;
+        // background-color: green;
+        .manyways-header {
+          height: 10%;
+          margin: -15px 0;
+          // background-color: orange;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .manyways-head {
+            font-size: 25px;
+            color: #181818;
+          }
+        }
+        .manyways-collection-block {
+          width: 100%;
+          height: 90%;
+          margin: -15px 0;
+          // background-color: yellow;
+          .manyways-collection {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 0 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .upTo-section {
+    background-image: url("/src/assets/image/30e70c2ac72ecdf28de44f2bf61354aed48621a9-1440x350.webp");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+    .contanier {
+      height: 100%;
+      width: 94%;
+      margin: 0 auto;
+      .upTo-block {
+        height: 100%;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        //   background-color: red;
+        .upto-head {
+          color: #fff;
+          font-size: 35px;
+        }
+        .upto-par {
+          font-size: 20px;
+          color: #fff;
+          line-height: 30px;
+          span {
+            font-weight: bold;
+          }
+        }
+        .exclusive-par {
+          font-size: 18px;
+          color: #fff;
+          margin-bottom: 20px;
+        }
+        .shop-link {
+          color: #181818;
+          padding: 15px 20px;
+          font-size: 18px;
+          font-weight: bold;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  .spring-styles-section {
+    .contanier {
+      width: 94%;
+      margin: 0 auto;
+      .spring-styles-block {
+        // background-color: red;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 0;
+        margin-bottom: 100px;
+        .spring-header {
+          height: 10%;
+          margin: -10px 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .spring-head {
+            font-size: 30px;
+            color: #181818;
+          }
+        }
+        .spring-card {
+          margin: -10px 0;
+          display: flex;
+          flex-wrap: wrap;
+          height: 90%;
+          padding: 0 15px;
+          justify-content: space-between;
+          // background-color: green;
+          .card-link {
+            margin: 0 -10px;
+            padding: 0 10px;
+            width: 25%;
+            height: 100%;
+            .card {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              // background-color: yellow;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+              .new-sale-par {
+                left: 20px;
+                bottom: 20px;
+                font-size: 20px;
+                font-weight: bold;
+                color: #fff;
+                position: absolute;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .forever-section {
+    height: 400px;
+    background-image: url("/src/assets/image/forever.webp");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+    cursor: pointer;
+    .contanier {
+      height: 100%;
+      width: 94%;
+      margin: 0 auto;
+      .forever-block {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        justify-content: center;
+        .forever-head {
+          font-size: 35px;
+          margin-bottom: 10px;
+        }
+        .forever-par {
+          margin-bottom: 30px;
+          font-size: 20px;
+        }
+        .forever-link {
+          font-size: 18px;
+          font-weight: bold;
+          color: #fff;
+          padding: 12px 20px;
+          background-color: #181818;
+        }
+      }
+    }
+  }
+  .gym-section {
+    // background-color: red;
+    margin-bottom: 40px;
+    height: 300px;
+    .contanier {
+      width: 94%;
+      height: 100%;
+      margin: 0 auto;
+      .gym-block {
+        display: flex;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 15px;
+      }
+    }
+  }
+  .manyways-section {
+    margin-bottom: 50px;
+    height: 300px;
+    // background-color: red;
+    .contanier {
+      height: 100%;
+      width: 94%;
+      margin: 0 auto;
+      .manyways-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        padding: 15px 0;
+        // background-color: green;
+        .manyways-header {
+          height: 10%;
+          margin: -15px 0;
+          // background-color: orange;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .manyways-head {
+            font-size: 25px;
+            color: #181818;
+          }
+        }
+        .manyways-collection-block {
+          width: 100%;
+          height: 90%;
+          margin: -15px 0;
+          // background-color: yellow;
+          .manyways-collection {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 0 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 912px) {
+  .shop-now-section {
+    margin: 50px 0;
+    .product-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      //   background-color: red;
+      .marka-head {
+        color: #181818;
+        font-size: 30px;
+      }
+      .marka-par {
+        font-size: 18px;
+        color: #181818;
+        // background-color: orange;
+        width: 60%;
+        line-height: 30px;
+        text-align: center;
+      }
+      .marka-link {
+        font-size: 18px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #181818;
+        padding: 10px 18px;
+      }
+    }
+  }
+  .game-section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    .game-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      .game-head {
+        font-size: 30px;
+        color: #181818;
+      }
+      .game-par {
+        color: #181818;
+        text-align: center;
+        font-size: 18px;
+        width: 80%;
+        padding: 0 10px;
+        line-height: 40px;
+      }
+      .link-block {
+        // background-color: rebeccapurple;
+        display: flex;
+        gap: 30px;
+        .shop-link {
+          color: #fff;
+          padding: 12px 18px;
+          font-weight: bold;
+          background-color: #181818;
+        }
+      }
+    }
+  }
+  .upTo-section {
+    background-image: url("/src/assets/image/30e70c2ac72ecdf28de44f2bf61354aed48621a9-1440x350.webp");
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+    .contanier {
+      height: 100%;
+      width: 94%;
+      margin: 0 auto;
+      .upTo-block {
+        height: 100%;
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // background-color: red;
+        .upto-head {
+          color: #fff;
+          font-size: 30px;
+        }
+        .upto-par {
+          font-size: 18px;
+          color: #fff;
+          line-height: 30px;
+          span {
+            font-weight: bold;
+          }
+        }
+        .exclusive-par {
+          font-size: 18px;
+          color: #fff;
+          margin-bottom: 20px;
+        }
+        .shop-link {
+          color: #181818;
+          padding: 15px 20px;
+          font-size: 15px;
+          font-weight: bold;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  .spring-styles-section {
+    .contanier {
+      width: 94%;
+      margin: 0 auto;
+      .spring-styles-block {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 0;
+        margin-bottom: 100px;
+        .spring-header {
+          height: 10%;
+          margin: -10px 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .spring-head {
+            font-size: 30px;
+            color: #181818;
+          }
+        }
+        .spring-card {
+          margin: -10px 0;
+          display: flex;
+          flex-wrap: wrap;
+          height: 90%;
+          padding: 0 15px;
+          justify-content: space-between;
+          // background-color: green;
+          .card-link {
+            margin: 0 -10px;
+            padding: 0 10px;
+            width: 25%;
+            height: 100%;
+            .card {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              //   background-color: yellow;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+              .new-sale-par {
+                left: 20px;
+                bottom: 20px;
+                font-size: 20px;
+                font-weight: bold;
+                color: #fff;
+                position: absolute;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .forever-section {
+    height: 350px;
+    background-image: url("/src/assets/image/forever.webp");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+    cursor: pointer;
+    .contanier {
+      height: 100%;
+      width: 94%;
+      margin: 0 auto;
+      .forever-block {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        justify-content: center;
+        .forever-head {
+          font-size: 30px;
+          margin-bottom: 10px;
+        }
+        .forever-par {
+          margin-bottom: 20px;
+          font-size: 20px;
+        }
+        .forever-link {
+          font-size: 18px;
+          font-weight: bold;
+          color: #fff;
+          padding: 12px 20px;
+          background-color: #181818;
+        }
+      }
+    }
+  }
+  .gym-section {
+    // background-color: red;
+    margin-bottom: 40px;
+    height: 250px;
+    .contanier {
+      width: 94%;
+      height: 100%;
+      margin: 0 auto;
+      .gym-block {
+        display: flex;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .upTo-section {
+    background-image: url("/src/assets/image/30e70c2ac72ecdf28de44f2bf61354aed48621a9-1440x350.webp");
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+    .contanier {
+      height: 100%;
+      width: 94%;
+      margin: 0 auto;
+      .upTo-block {
+        height: 100%;
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // background-color: red;
+        .upto-head {
+          color: #fff;
+          font-size: 25px;
+        }
+        .upto-par {
+          font-size: 15px;
+          color: #fff;
+          line-height: 30px;
+          span {
+            font-weight: bold;
+          }
+        }
+        .exclusive-par {
+          font-size: 15px;
+          color: #fff;
+          margin-bottom: 20px;
+        }
+        .shop-link {
+          color: #181818;
+          padding: 12px 18px;
+          font-size: 15px;
+          font-weight: bold;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  .spring-styles-section {
+    .contanier {
+      width: 94%;
+      margin: 0 auto;
+      .spring-styles-block {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 0;
+        margin-bottom: 100px;
+        .spring-header {
+          height: 10%;
+          margin: -10px 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .spring-head {
+            font-size: 25px;
+            color: #181818;
+          }
+        }
+        .spring-card {
+          margin: -10px 0;
+          display: flex;
+          flex-wrap: wrap;
+          height: 90%;
+          padding: 0 15px;
+          justify-content: space-between;
+          // background-color: green;
+          .card-link {
+            margin: 0 -10px;
+            padding: 0 10px;
+            width: 25%;
+            height: 100%;
+            .card {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              //   background-color: yellow;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+              .new-sale-par {
+                left: 20px;
+                bottom: 20px;
+                font-size: 20px;
+                font-weight: bold;
+                color: #fff;
+                position: absolute;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .forever-section {
+    height: 300px;
+    background-image: url("/src/assets/image/forever.webp");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+    cursor: pointer;
+    .contanier {
+      height: 100%;
+      width: 94%;
+      margin: 0 auto;
+      .forever-block {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        justify-content: center;
+        .forever-head {
+          font-size: 25px;
+          margin-bottom: 10px;
+        }
+        .forever-par {
+          margin-bottom: 20px;
+          font-size: 18px;
+        }
+        .forever-link {
+          font-size: 18px;
+          font-weight: bold;
+          color: #fff;
+          padding: 12px 20px;
+          background-color: #181818;
+        }
+      }
+    }
+  }
+  .gym-section {
+    // background-color: red;
+    margin-bottom: 40px;
+    height: 250px;
+    .contanier {
+      width: 94%;
+      height: 100%;
+      margin: 0 auto;
+      .gym-block {
+        display: flex;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .spring-styles-section {
+    .contanier {
+      width: 94%;
+      margin: 0 auto;
+      .spring-styles-block {
+        // background-color: red;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 0;
+        margin-bottom: 100px;
+        .spring-header {
+          height: 10%;
+          margin: -10px 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .spring-head {
+            font-size: 25px;
+            color: #181818;
+          }
+        }
+        .spring-card {
+          margin: -10px 0;
+          display: flex;
+          flex-wrap: wrap;
+          height: 90%;
+          justify-content: space-between;
+          padding: 10px 10px;
+          row-gap: 40px;
+          //   background-color: green;
+        }
+      }
+    }
+  }
+  .forever-section {
+    height: 250px;
+    background-image: url("/src/assets/image/forever.webp");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+    cursor: pointer;
+    .contanier {
+      height: 100%;
+      width: 94%;
+      margin: 0 auto;
+      .forever-block {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        justify-content: center;
+        .forever-head {
+          font-size: 25px;
+          margin-bottom: 8px;
+        }
+        .forever-par {
+          margin-bottom: 15px;
+          font-size: 15px;
+        }
+        .forever-link {
+          font-size: 15px;
+          font-weight: bold;
+          color: #fff;
+          padding: 12px 20px;
+          background-color: #181818;
+        }
+      }
+    }
+  }
+  .gym-section {
+    margin-bottom: 40px;
+    height: 500px;
+    // background-color: green;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      .gym-block {
+        // background-color: red;
+        display: flex;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: space-between;
+        padding: 10px 10px;
+      }
+    }
+  }
+  .manyways-section {
+    margin-bottom: 50px;
+    height: 500px;
+    // background-color: red;
+    .contanier {
+      height: 100%;
+      width: 94%;
+      margin: 0 auto;
+      .manyways-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        padding: 15px 0;
+        // background-color: green;
+        .manyways-header {
+          height: 10%;
+          margin: -15px 0;
+          // background-color: orange;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .manyways-head {
+            font-size: 25px;
+            color: #181818;
+          }
+        }
+        .manyways-collection-block {
+          width: 100%;
+          height: 90%;
+          margin: -15px 0;
+          //   background-color: yellow;
+          .manyways-collection {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            gap: 40px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 432px) {
+  .shop-now-section {
+    margin: 50px 0;
+    .product-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      // background-color: red;
+      .marka-head {
+        color: #181818;
+        font-size: 30px;
+      }
+      .marka-par {
+        font-size: 18px;
+        color: #181818;
+        // background-color: orange;
+        width: 60%;
+        line-height: 30px;
+        text-align: center;
+      }
+      .marka-link {
+        font-size: 18px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #181818;
+        padding: 10px 15px;
+      }
+    }
+  }
+  .game-section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    .game-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      // background-color: yellow;
+      .game-head {
+        text-align: center;
+        font-size: 25px;
+        color: #181818;
+      }
+      .game-par {
+        color: #181818;
+        text-align: center;
+        font-size: 15px;
+        width: 80%;
+        padding: 0 10px;
+        line-height: 40px;
+        // background-color: orange;
+      }
+      .link-block {
+        // background-color: rebeccapurple;
+        display: flex;
+        gap: 30px;
+        .shop-link {
+          color: #fff;
+          padding: 12px 15px;
+          font-weight: bold;
+          background-color: #181818;
+        }
+      }
+    }
+  }
+  .upTo-section {
+    background-image: url("/src/assets/image/30e70c2ac72ecdf28de44f2bf61354aed48621a9-1440x350.webp");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+    .contanier {
+      height: 100%;
+      width: 90%;
+      margin: 0 auto;
+      .upTo-block {
+        height: 100%;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        //   background-color: red;
+        .upto-head {
+          color: #fff;
+          font-size: 20px;
+        }
+        .upto-par {
+          font-size: 15px;
+          color: #fff;
+          line-height: 30px;
+          span {
+            font-weight: bold;
+          }
+        }
+        .exclusive-par {
+          font-size: 15px;
+          color: #fff;
+          margin-bottom: 10px;
+        }
+        .shop-link {
+          color: #181818;
+          padding: 10px 15px;
+          font-size: 15px;
+          font-weight: bold;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  .spring-styles-section {
+    .contanier {
+      width: 94%;
+      margin: 0 auto;
+      .spring-styles-block {
+        // background-color: red;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 0;
+        margin-bottom: 80px;
+        .spring-header {
+          height: 10%;
+          margin: -10px 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .spring-head {
+            font-size: 25px;
+            color: #181818;
+          }
+        }
+        .spring-card {
+          margin: -10px 0;
+          display: flex;
+          flex-wrap: wrap;
+          height: 90%;
+          justify-content: space-between;
+          padding: 10px 10px;
+          row-gap: 40px;
+          // background-color: green;
+        }
+      }
+    }
+  }
+  .forever-section {
+    height: 200px;
+    background-image: url("/src/assets/image/forever.webp");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    cursor: pointer;
+    .contanier {
+      height: 100%;
+      width: 94%;
+      margin: 0 auto;
+      .forever-block {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        justify-content: center;
+        .forever-head {
+          font-size: 20px;
+          margin-bottom: 8px;
+        }
+        .forever-par {
+          margin-bottom: 15px;
+          font-size: 15px;
+        }
+        .forever-link {
+          font-size: 15px;
+          font-weight: 500;
+          color: #fff;
+          padding: 10px 18px;
+          background-color: #181818;
+        }
+      }
+    }
+  }
+  .gym-section {
+    margin-bottom: 40px;
+    height: 450px;
+    // background-color: green;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      .gym-block {
+        // background-color: red;
+        display: flex;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: space-between;
+        padding: 10px 10px;
+      }
+    }
+  }
+  .manyways-section {
+    margin-bottom: 50px;
+    height: 500px;
+    // background-color: red;
+    .contanier {
+      height: 100%;
+      width: 94%;
+      margin: 0 auto;
+      .manyways-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        padding: 15px 0;
+        // background-color: green;
+        .manyways-header {
+          height: 10%;
+          margin: -15px 0;
+          // background-color: orange;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .manyways-head {
+            font-size: 25px;
+            color: #181818;
+          }
+        }
+        .manyways-collection-block {
+          width: 100%;
+          height: 90%;
+          margin: -15px 0;
+          // background-color: yellow;
+          .manyways-collection {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            gap: 40px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .shop-now-section {
+    margin: 50px 0;
+    .product-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      // background-color: red;
+      .marka-head {
+        color: #181818;
+        font-size: 25px;
+      }
+      .marka-par {
+        font-size: 15px;
+        color: #181818;
+        // background-color: orange;
+        width: 80%;
+        line-height: 30px;
+        text-align: center;
+      }
+      .marka-link {
+        font-size: 18px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #181818;
+        padding: 10px 15px;
+      }
+    }
+  }
+  .game-section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    .game-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      // background-color: yellow;
+      .game-head {
+        text-align: center;
+        font-size: 25px;
+        color: #181818;
+      }
+      .game-par {
+        color: #181818;
+        text-align: center;
+        font-size: 15px;
+        width: 80%;
+        padding: 0 10px;
+        line-height: 40px;
+        // background-color: orange;
+      }
+      .link-block {
+        // background-color: rebeccapurple;
+        display: flex;
+        gap: 30px;
+        .shop-link {
+          color: #fff;
+          padding: 12px 15px;
+          font-weight: bold;
+          background-color: #181818;
+        }
+      }
+    }
+  }
+}

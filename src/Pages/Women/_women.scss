@@ -1,0 +1,180 @@
+.palermo-section {
+  background-color: red;
+  margin-bottom: 100px;
+  position: relative;
+  .palermo-info-block {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    color: #fff;
+    transform: translateY(-50%);
+    .palermo-head {
+      font-size: 40px;
+    }
+    .palermo-par {
+      font-size: 25px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    .palermo-link {
+      margin-right: 20px;
+      color: #181818;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: #fff;
+      padding: 10px 15px;
+    }
+  }
+}
+
+.women-card-section {
+  height: 600px;
+  margin-bottom: 50px;
+  .contanier {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    // background-color: green;
+    .women-collection {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 0 10px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.wardrobe-section {
+  background-color: red;
+  position: relative;
+  .wardrobe-info-block {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    color: #fff;
+    .wardrobe-head {
+      font-size: 40px;
+    }
+    .wardrobe-par {
+      font-size: 25px;
+    }
+    .link-block {
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+      .wardrobe-link {
+        background-color: #fff;
+        color: #181818;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 15px 18px;
+      }
+    }
+  }
+}
+
+.shop-category-section {
+  height: 1000px;
+  margin-bottom: 100px;
+//   background-color: red;
+  .contanier {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    .shop-category-block {
+      width: 100%;
+      height: 100%;
+    //   background-color: orange;
+      .shop-category-header {
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .shop-head {
+          font-size: 30px;
+          color: #181818;
+        }
+      }
+      .shop-collection {
+        width: 100%;
+        height: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        // background-color: yellow;
+        padding: 20px 0;
+        gap: 50px;
+        .favorite-collection-section {
+          width: 100%;
+          height: 70%;
+          margin: -10px 0;
+          .favorite-collection {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            // background-color: blueviolet;
+            padding: 0 10px;
+            gap: 40px;
+          }
+        }
+        .simple-collection-section {
+          width: 100%;
+          height: 30%;
+        //   background-color: green;
+          margin: -10px 0;
+          .simple-collection-block {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 0 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.shop-performance-section {
+//   background-color: yellow;
+  margin-bottom: 50px;
+  height: 450px;
+  .contanier {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    // background-color: orange;
+    .shop-performance-block {
+      width: 100%;
+      height: 100%;
+      padding: 15px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .shop-performance-header {
+        height: 10%;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background-color: red;
+        margin: -15px 0;
+      }
+      .collection-block {
+        width: 100%;
+        height: 90%;
+        margin: -15px 0;
+        // background-color: blueviolet;
+        .performance-collection {
+          display: flex;
+          height: 100%;
+          padding: 0 25px;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}

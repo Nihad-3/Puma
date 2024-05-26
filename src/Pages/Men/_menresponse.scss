@@ -1,0 +1,262 @@
+@media (max-width: 768px) {
+  .inverse-section {
+    height: 300px;
+    background-color: green;
+    margin-bottom: 50px;
+    background-image: url("/src/assets/image/mensection.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    .contanier {
+      width: 90%;
+      margin: 0 auto;
+      height: 100%;
+      // background-color: red;
+      .inverse-block {
+        width: 100%;
+        height: 100%;
+        // background-color: orange;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        color: #fff;
+        .inverse-head {
+          font-size: 30px;
+        }
+        .inverse-par {
+          margin-bottom: 20px;
+          font-size: 25px;
+        }
+        .inverse-link {
+          font-size: 18px;
+          font-weight: bold;
+          color: #121212;
+          background-color: #fff;
+          padding: 10px 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .inverse-section {
+    height: 350px;
+    margin-bottom: 50px;
+    background-image: url("/src/assets/image/mensection.webp");
+    // background-color: green;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    .contanier {
+      width: 90%;
+      margin: 0 auto;
+      height: 100%;
+      // background-color: red;
+      .inverse-block {
+        width: 100%;
+        height: 100%;
+        // background-color: orange;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        color: #fff;
+        .inverse-head {
+          font-size: 30px;
+        }
+        .inverse-par {
+          margin-bottom: 20px;
+          font-size: 20px;
+        }
+        .inverse-link {
+          font-size: 15px;
+          font-weight: bold;
+          color: #121212;
+          background-color: #fff;
+          padding: 10px 15px;
+        }
+      }
+    }
+  }
+  .nba-section {
+    margin-bottom: 50px;
+    height: 500px;
+    .contanier {
+      height: 100%;
+      width: 90%;
+      margin: 0 auto;
+      .nba-block {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 10px;
+        gap: 40px;
+      }
+    }
+  }
+  .wardrobe-men-section {
+    background-color: orange;
+    position: relative;
+    .wardrobe-men-block {
+      position: absolute;
+      top: 50%;
+      left: 50px;
+      color: #fff;
+      transform: translateY(-50%);
+      .wardrobe-head {
+        font-size: 30px;
+      }
+      .wardrobe-par {
+        font-size: 20px;
+      }
+      .wardrobe-link-block {
+        font-size: 15px;
+        margin-top: 40px;
+        font-weight: bold;
+        .wardrobe-link {
+          color: #121212;
+          margin-right: 20px;
+          background-color: #fff;
+          padding: 15px 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 432px) {
+  .inverse-section {
+    height: 300px;
+    margin-bottom: 50px;
+    background-image: url("/src/assets/image/mensection.webp");
+    // background-color: green;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    .contanier {
+      width: 90%;
+      margin: 0 auto;
+      height: 100%;
+      // background-color: red;
+      .inverse-block {
+        width: 100%;
+        height: 100%;
+        // background-color: orange;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        color: #fff;
+        .inverse-head {
+          font-size: 25px;
+        }
+        .inverse-par {
+          margin: 15px 0;
+          font-size: 18px;
+        }
+        .inverse-link {
+          font-size: 15px;
+          font-weight: bold;
+          color: #121212;
+          background-color: #fff;
+          padding: 10px 15px;
+        }
+      }
+    }
+  }
+  .nba-section {
+    margin-bottom: 50px;
+    height: 300px;
+    .contanier {
+      height: 100%;
+      width: 90%;
+      margin: 0 auto;
+      .nba-block {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 10px;
+        gap: 40px;
+      }
+    }
+  }
+  .wardrobe-men-section {
+    background-color: orange;
+    position: relative;
+    .wardrobe-men-block {
+      position: absolute;
+      top: 50%;
+      left: 20px;
+      color: #fff;
+      transform: translateY(-50%);
+      .wardrobe-head {
+        font-size: 20px;
+      }
+      .wardrobe-par {
+        font-size: 18px;
+        margin: 10px 0;
+      }
+      .wardrobe-link-block {
+        font-size: 12px;
+        margin-top: 30px;
+        font-weight: bold;
+        .wardrobe-link {
+          color: #121212;
+          margin-right: 10px;
+          background-color: #fff;
+          padding: 15px 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .inverse-section {
+    height: 250px;
+    margin-bottom: 50px;
+    background-image: url("/src/assets/image/mensection.webp");
+    // background-color: green;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    .contanier {
+      width: 90%;
+      margin: 0 auto;
+      height: 100%;
+      // background-color: red;
+      .inverse-block {
+        width: 100%;
+        height: 100%;
+        // background-color: orange;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        color: #fff;
+        .inverse-head {
+          font-size: 20px;
+        }
+        .inverse-par {
+          margin: 15px 0;
+          font-size: 15px;
+        }
+        .inverse-link {
+          font-size: 15px;
+          font-weight: bold;
+          color: #121212;
+          background-color: #fff;
+          padding: 10px 12px;
+        }
+      }
+    }
+  }
+}

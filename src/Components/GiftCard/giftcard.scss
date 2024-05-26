@@ -1,0 +1,31 @@
+.gift-card-section {
+    background-color: #ff6188;
+    height: 120px;
+    .contanier {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      .gift-card-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        width: 100%;
+        height: 100%;
+        // background-color: red;
+        .gift-card-block-par {
+          color: #fff;
+          font-size: 18px;
+          font-weight: bold;
+        }
+        .gift-card-block-link {
+          color: #fff;
+          font-size: 18px;
+          text-decoration: underline;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  

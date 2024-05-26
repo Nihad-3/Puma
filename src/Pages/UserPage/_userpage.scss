@@ -1,0 +1,46 @@
+
+.account-section{
+    // background-color: red;
+    margin: 50px 0;
+    .contanier{
+        width: 90%;
+        margin: 0 auto;
+        .account-head{
+            font-size: 40px;
+        }
+    }
+}
+
+.form-section{
+    // height: 400px;
+    margin: 40px 0;
+    // background-color: orange;
+    .contanier{
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        .form-block{
+            height: 100%;
+            width: 50%;
+            // background-color: red;
+            .choose-link-block{
+                width: 100%;
+                height: 50px;
+                display: flex;
+                // background-color: green;
+                .choose-link{
+                    width: 50%;
+                    color: #191919;
+                    // background-color: yellow;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 25px;
+                    border-bottom: 3px solid #191919;
+                }
+            }
+        }
+    }
+}

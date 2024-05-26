@@ -1,0 +1,202 @@
+.firebase-data-section {
+  // width: 100%;
+  margin: 50px;
+  // background-color: yellow;
+  .contanier {
+    width: 80%;
+    margin: 0 auto;
+    // background-color: red;
+    .firebase-block {
+      width: 100%;
+      // background-color: green;
+      .firebase-header-list {
+        width: 100%;
+        // background-color: orange;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        color: #191919;
+        .firebase-header-list-head {
+          font-size: 20px;
+        }
+        .firebase-header-list-item {
+          list-style-type: disc;
+        }
+      }
+      .dashboard-par {
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #191919;
+      }
+      .my-account-head {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 50px;
+        color: #191919;
+      }
+      .logout-btn {
+        font-size: 20px;
+        background: none;
+        border: none;
+        outline: none;
+        color: #191919;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      .profile-description-section {
+        width: 100%;
+        margin: 20px 0;
+        .profile-description-block {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          padding: 0 20px;
+          // height: 30px;
+        //   background-color: burlywood;
+          .profile-description-block-parent {
+            width: 50%;
+            margin: 0 -20px;
+            // background-color: blue;
+            .profile-description-block-child {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+              .profile-description-block-child-header {
+                width: 100%;
+                padding: 10px 0;
+                border-bottom: 2px solid #191919;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .profile-name {
+                  display: flex;
+                  gap: 5px;
+                  align-items: center;
+                  .profile-name-user-icon {
+                    font-size: 20px;
+                  }
+                  .profile-name-user-par {
+                    font-size: 24px;
+                    font-weight: bold;
+                  }
+                }
+                .edit-profile-link {
+                  font-size: 16px;
+                  color: #191919;
+                  text-decoration: underline;
+                }
+              }
+              .profile-description-block-user {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                .user-information-block-par {
+                  font-size: 18px;
+                  font-weight: bold;
+                  .user-information-block-span {
+                    font-weight: 400;
+                  }
+                }
+              }
+              .address-block{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                border-bottom: 2px solid #191919;
+                padding: 10px 0;
+                .address-block-icon{
+                    font-size: 20px;
+                }
+                .addres-block-par{
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+              }
+              .add-new-link{
+                padding: 8px 0;
+                text-align: center;
+                font-size: 18px;
+                width: 20%;
+                color: #FFF;
+                background-color: #191919;
+              }
+            }
+          }
+        }
+      }
+      .profile-password-section {
+        width: 50%;
+        // background-color: burlywood;
+        .profile-password-header {
+          display: flex;
+          padding: 15px 0;
+          align-items: center;
+          margin: 20px 0;
+          justify-content: space-between;
+          border-bottom: 2px solid black;
+          .password-text {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            .password-text-icon {
+              font-size: 25px;
+            }
+            .password-text-par {
+              font-size: 20px;
+            }
+          }
+          .password-text-link {
+            font-size: 16px;
+            font-weight: bold;
+            color: #191919;
+            text-decoration: underline;
+          }
+        }
+        .profile-password-text-par {
+          font-size: 20px;
+          font-weight: bold;
+          .profile-password-text-span {
+            font-weight: 400;
+            font-size: 18px;
+          }
+        }
+      }
+      .profile-preferences-section {
+        width: 50%;
+        margin: 30px 0;
+        // background-color: brown;
+        .profile-preferences-block {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          .profile-preferences-block-header {
+            width: 100%;
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            .profile-preferences-block-header-icon {
+              font-size: 25px;
+            }
+            .profile-preferences-block-header-par {
+              font-size: 20px;
+              // font-weight: bold;
+            }
+          }
+          .profile-preferences-block-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .profile-preferences-block-link {
+              font-size: 16px;
+              color: black;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
