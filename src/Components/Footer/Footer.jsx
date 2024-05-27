@@ -400,7 +400,7 @@ export const Footer = () => {
             <div className="foot-country">
               <button className="footer-btn">UNITED STATES</button>
             </div>
-            <div className="foot-copywrigth">
+            <div style={{color:"#FFF"}} className="foot-copywrigth">
               <p className="copywrigth-par">
                 <FaRegCopyright />
                 PUMA NORTH AMERICA, INC.

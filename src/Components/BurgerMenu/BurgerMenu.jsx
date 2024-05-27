@@ -112,7 +112,7 @@ export const BurgerMenu = ({ toggleBurgerMenu }) => {
                   </Link>
                 </li>
                 <li className="different-burger-item">
-                  <Link to={"/data"} className="burger-link">
+                  <Link to={"/userpage"} className="burger-link">
                     My Account
                   </Link>
                 </li>
@@ -126,7 +126,7 @@ export const BurgerMenu = ({ toggleBurgerMenu }) => {
                   <Link className="burger-link">Contact Us</Link>
                 </li>
                 <li className="different-burger-item">
-                  <Link className="burger-link">Wishlist</Link>
+                  <Link to={"/wishlist"} className="burger-link">Wishlist</Link>
                 </li>
                 <li className="different-burger-item">
                   <Link className="burger-link">Language</Link>

@@ -83,6 +83,7 @@
           color: #fff;
           .copywrigth-par {
             height: 100%;
+            color: #fff;
             font-size: 15px;
             text-align: end;
           }
@@ -94,8 +95,8 @@
 
 @media (max-width: 992px) {
   footer {
-    // background-color: yellow;
     background-color: #181818;
+    // background-color: yellow;
     padding: 50px 0;
     .contanier {
       width: 90%;
@@ -104,6 +105,12 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+        .footer-content-final{
+          .footer-content-final-text{
+            color: #fff;
+            width: 40%;
+          }
+        } 
       }
       .footer-block {
         display: flex;
@@ -180,7 +187,7 @@
           width: 25%;
           padding: 0 0px;
           height: 100%;
-            // background-color: gold;
+          // background-color: gold;
           color: #fff;
           .copywrigth-par {
             height: 100%;
@@ -385,8 +392,8 @@
           padding: 0 0px;
           height: 100%;
           //   background-color: gold;
-          color: #fff;
           .copywrigth-par {
+            color: #fff;
             height: 100%;
             font-size: 15px;
             text-align: end;

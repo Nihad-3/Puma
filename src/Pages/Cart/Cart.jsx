@@ -14,6 +14,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import { Audio, ThreeCircles } from "react-loader-spinner";
 import { GiftCard } from "../../Components/GiftCard/GiftCard";
 export const Cart = () => {
+  // Add commit two
   const promoCode = "Nihad-Frontend";
   const [openPage, setOpenPage] = useState(true);
   const { cartList } = useContext(CartContext);
@@ -219,39 +220,6 @@ export const Cart = () => {
                 </div>
               </div>
               <Slider HeaderText={"YOU MAY ALSO LIKE"} />
-              <section className="secure-section">
-                <div className="contanier">
-                  <div className="secure-block">
-                    <div className="secure-card-parent">
-                      <div className="secure-card">
-                        <MdLockOutline className="secure-icon" />
-                        <h3 className="secure-head">SECURE PAYMENTS</h3>
-                        <p className="secure-par">
-                          SSL ENCRYPTION ON ALL TRANSACTIONSА
-                        </p>
-                      </div>
-                    </div>
-                    <div className="secure-card-parent">
-                      <div className="secure-card">
-                        <FaTruck className="secure-icon" />
-                        <h3 className="secure-head">FREE & FAST RETURNS</h3>
-                        <p className="secure-par">
-                          FREE RETURN ON ALL QUALIFYING ORDERS
-                        </p>
-                      </div>
-                    </div>
-                    <div className="secure-card-parent">
-                      <div className="secure-card">
-                        <LiaCommentSolid className="secure-icon" />
-                        <h3 className="secure-head">ACTIVE SUPPORT</h3>
-                        <p className="secure-par">
-                          GET IN TOUCH IF YOU HAVE A PROBLEM
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
             </>
           )}
         </>
